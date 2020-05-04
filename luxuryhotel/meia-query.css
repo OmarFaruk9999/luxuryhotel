@@ -1,0 +1,107 @@
+@media only screen and (max-width:1200px) {
+    .head-line h1 {
+        font-size: 35px;
+    }
+    .head-line p {
+        font-size: 20px;
+    }
+    .left-box {
+        margin: 20px 0;
+        padding: 0 50px;
+    }
+    .feature-box {
+        width: 532px;
+        border: 1px solid black;
+        float: right;
+        height: 650px;
+    }
+    .feature-box img {
+        width: 100%;
+        height: 320px;
+        filter: brightness(.5);
+    }
+    .img-box {
+        width: 368px;
+        height: 310px;
+    }
+    .img-box img {
+        width: 100%;
+        height: 100%;
+        filter: brightness(.5);
+        margin-bottom: 33px;
+    }
+}
+
+@media only screen and (max-width:950px) {
+    .header-section nav {
+        margin-bottom: 80px;
+        background: grey;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .feature-box {
+        width: 380px;
+        border: 1px solid black;
+        float: right;
+        height: 650px;
+    }
+    .feature-box img {
+        width: 100%;
+        height: 260px;
+        filter: brightness(.5);
+    }
+    .img-box {
+        width: 273px;
+        height: 273px;
+    }
+    .img-box img {
+        width: 100%;
+        height: 100%;
+        filter: brightness(.5);
+        margin-bottom: 33px;
+    }
+}
+
+@media only screen and (max-width:805px) {
+    .right-navigation {
+        display: none;
+    }
+    .header-section .logo {
+        margin-top: 6px;
+    }
+    .enjoy-section .span_5_of_12 {
+        width: 100%;
+    }
+    .enjoy-section .span_7_of_12 {
+        width: 100%;
+    }
+    .enjoy-section .left-box {
+        padding: 0 20px;
+    }
+    .feature-box-right {
+        display: none;
+    }
+    .feature-section .span_7_of_12 {
+        width: 100%;
+    }
+    .feature-section {
+        padding: 0 22px;
+    }
+    .feature-box {
+        margin: 0 auto;
+        width: 532px;
+        border: 1px solid black;
+        height: 650px;
+    }
+    .feature-box img {
+        width: 100%;
+        height: 320px;
+        filter: brightness(.5);
+    }
+    .up-quote {
+        color: #D6D6D6;
+        font-size: 13px;
+        text-align: center;
+        margin-top: 100px;
+    }
+}
